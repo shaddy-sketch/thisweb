@@ -8,9 +8,8 @@ document.querySelectorAll('nav ul li a').forEach(anchor => {
     });
 });
 
-// Placeholder for handling the contact form submission
+// Contact form submission placeholder
 document.getElementById('contact-form').addEventListener('submit', function(e) {
     e.preventDefault();
-    alert('Message sent! Thank you for contacting me.');
-    // Here you can add your code to handle the form data submission
+    alert('Your message has been sent successfully!');
 });
